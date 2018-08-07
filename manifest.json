@@ -1,0 +1,22 @@
+{
+  "name": "Test Layout",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "My test layout",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Test layout",
+      "type": "ime",
+      "id": "test_layout",
+      "description": "My test layout",  
+      "language": "en-US",
+      "layouts": ["us"]
+    }
+  ]
+}
